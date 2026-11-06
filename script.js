@@ -22,11 +22,11 @@ const DATA_UNIT_USAHA = {
     category: "DIVISI AKADEMIK & REPRODUKSI",
     title: "Unit Percetakan & Dokumen",
     icon: "🖨️",
-    description: "Layanan reproduksi dokumen akademik cepat dan berkualitas tinggi. Melayani print dokumen kilat (hitam-putih & warna), fotokopi modul perkuliahan, jilid skripsi (hard cover pita emas / spiral / lakban), laminating, dan jasa formatting tugas kuliah rapi.",
+    description: "Layanan reproduksi dokumen akademik cepat dan berkualitas tinggi. Melayani print dokumen kilat (hitam-putih & warna), fotokopi modul perkuliahan, jilid skripsi (hard cover pita emas / spiral / lakban), laminating, dan jasa formatting dokumen rapi.",
     hours: "07.30 - 17.30 WIB (Senin - Sabtu)",
     location: "Media Center HMP-TI Lantai 2",
     pic: "Penanggung Jawab Percetakan HMP-TI",
-    defaultNote: "Halo Admin Percetakan HMP-TI, saya ingin mencetak dokumen dan menjilid laporan tugas kuliah saya."
+    defaultNote: "Halo Admin Percetakan HMP-TI, saya ingin mencetak dokumen dan menjilid laporan kegiatan saya."
   },
   konsinyasi: {
     category: "DIVISI INKUBASI WIRAUSAHA",

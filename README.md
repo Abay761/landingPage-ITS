@@ -1,7 +1,7 @@
 # 🚀 Landing Page Katalog Unit Usaha HMP-TI (ITS)
 
-> **Proyek Portofolio Pemrograman Web & Katalog Resmi Layanan Mahasiswa**  
-> Dibuat untuk memenuhi tugas mata kuliah Pemrograman Web - Himpunan Mahasiswa Program Studi Teknologi Informasi.
+> **Proyek Penugasan Divisi & Katalog Resmi Layanan Mahasiswa**  
+> Dibuat untuk memenuhi penugasan divisi Himpunan Mahasiswa Program Studi Teknologi Informasi (HMP-TI).
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Website-3ed6e8?style=for-the-badge&logo=googlechrome&logoColor=black)](https://abay761.github.io/landingPage-ITS/)
 [![GitHub Pages](https://img.shields.io/badge/Hosted%20With-GitHub%20Pages-22c55e?style=for-the-badge&logo=github)](https://abay761.github.io/landingPage-ITS/)
@@ -12,7 +12,7 @@
 ## 📌 Identitas Mahasiswa
 - **Nama Lengkap:** Okta Bayu Saputra
 - **NPM:** 2610010135
-- **Sub-Divisi / Mata Kuliah:** Pemrograman Web
+- **Sub-Divisi:** Pemrograman
 - **Institusi:** Program Studi Teknologi Informasi, Universitas Islam Kalimantan Muhammad Arsyad Al Banjari (UNISKA MAB)
 
 ---
@@ -61,4 +61,4 @@ landingPage-ITS/
 ---
 
 ## 📄 Lisensi & Hak Cipta
-&copy; 2026 IT Solution (ITS) HMP-TI. Dikembangkan oleh **Okta Bayu Saputra (NPM: 2610010135)** untuk keperluan akademik dan portofolio.
+&copy; 2026 IT Solution (ITS) HMP-TI. Dikembangkan oleh **Okta Bayu Saputra (NPM: 2610010135)** untuk penugasan Himpunan Mahasiswa Program Studi Teknologi Informasi (HMP-TI).
