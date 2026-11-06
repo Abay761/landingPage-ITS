@@ -14,7 +14,6 @@
 - **NPM:** 2610010135
 - **Sub-Divisi / Mata Kuliah:** Pemrograman Web
 - **Institusi:** Program Studi Teknologi Informasi, Universitas Islam Kalimantan Muhammad Arsyad Al Banjari (UNISKA MAB)
-- **Dosen Pengampu:** Ihsanul Fikri, S.Kom., M.Kom.
 
 ---
 
