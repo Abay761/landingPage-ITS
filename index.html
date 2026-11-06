@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog Resmi Unit Usaha HMP-TI (ITS) - Ekosistem Layanan Terpadu F&B, Percetakan, Konsinyasi & Agensi Kreatif Mahasiswa Teknologi Informasi.">
+  <meta name="keywords" content="HMP-TI, ITS, IT Solution, Unit Usaha, F&B, Percetakan, Konsinyasi, Creative Design, Technology Development, Banjarmasin">
+  <meta name="author" content="IT Solution (ITS) HMP-TI">
+  
+  <title>Katalog Resmi Unit Usaha HMP-TI (ITS) - IT Solution Digital Agency</title>
+
+  <!-- Favicon Resmi ITS -->
+  <link rel="icon" type="image/png" href="assets/logo-its.png">
+
+  <!-- Typography Resmi ITS: Space Grotesk (Heading) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet Eksternal Murni -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+
+  <!-- Ambient Animated Cyber Glow Orbs -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container navbar-wrapper">
+      <a href="#" class="brand-logo" aria-label="Beranda HMP-TI ITS">
+        <div class="brand-img-wrap">
+          <img src="assets/logo-its.png" alt="Logo HMP-TI ITS" class="brand-img">
+        </div>
+        <div class="brand-text">
+          <div class="brand-title">IT SOLUTION</div>
+          <div class="brand-subtitle">HMP-TI KAMPUS</div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#katalog" class="nav-link">Katalog Unit</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#fitur" class="nav-link">Keunggulan</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="https://wa.me/6285175044971?text=Halo%20Admin%20ITS%2C%20saya%20ingin%20konsultasi%20layanan%20unit%20usaha%20HMP-TI." target="_blank" rel="noopener noreferrer" class="nav-link nav-btn-cta">
+          <span class="pulse-dot"></span> WhatsApp Resmi
+        </a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      
+      <!-- Glowing Pill Badge -->
+      <div class="hero-badge-wrap">
+        <span class="hero-badge">
+          <span class="badge-icon">⚡</span>
+          <span class="badge-text">DIGITAL MARKETING • CREATIVE DESIGN • TECHNOLOGY DEVELOPMENT</span>
+        </span>
+      </div>
+
+      <!-- Main Catchy Title -->
+      <h1 class="hero-title">
+        Solusi Terpadu <span class="gradient-text">Wirausaha & Layanan</span> Mahasiswa HMP-TI
+      </h1>
+
+      <!-- Description (Scraped from ITS Vision) -->
+      <p class="hero-desc">
+        IT Solution (ITS) adalah unit digital agency dan ekosistem kewirausahaan mandiri di bawah naungan HMP-TI. 
+        Menghadirkan layanan konsumsi harian, pusat reproduksi dokumen akademik kilat, etalase konsinyasi wirausaha muda, 
+        hingga agensi kreatif multimedia dan teknologi terintegrasi dalam satu atap.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="hero-actions">
+        <a href="#katalog" class="btn btn-glow">
+          <span>🚀 Eksplorasi 4 Unit Usaha</span>
+        </a>
+        <button class="btn btn-outline" onclick="openCalculatorModal()">
+          <span>🧮 Simulasi Estimasi Biaya</span>
+        </button>
+      </div>
+
+      <!-- Live Interactive Stats Banner (Official ITS Stats) -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number gradient-text">4</div>
+          <div class="stat-label">Pilar Unit Usaha</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number gradient-text">100%</div>
+          <div class="stat-label">Mahasiswa Bertalenta</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number gradient-text">500+</div>
+          <div class="stat-label">Civitas Terlayani</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number gradient-text">Fast</div>
+          <div class="stat-label">SLA Respon Cepat</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CATALOG SEARCH & FILTER SECTION ================= -->
+  <main id="katalog" class="catalog-section">
+    <div class="container">
+
+      <!-- Section Title & Lead -->
+      <div class="section-header text-center">
+        <span class="sub-heading-badge">KATALOG RESMI UNIT USAHA</span>
+        <h2 class="section-title">Empat Divisi Layanan Mandiri</h2>
+        <p class="section-subtitle">
+          Temukan solusi terpadu yang siap mendukung kebutuhan perkuliahan, konsumsi harian, dan proyek digital Anda.
+        </p>
+      </div>
+
+      <!-- Live Search & Category Filter Controls -->
+      <div class="filter-controls-wrap">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="Cari layanan (misal: print, kopi, jilid, poster, web)..." onkeyup="filterCatalog()" aria-label="Cari Layanan">
+        </div>
+
+        <div class="filter-tabs" id="filterTabs">
+          <button class="filter-btn active" onclick="setFilterCategory('all', this)">Semua Unit</button>
+          <button class="filter-btn" onclick="setFilterCategory('fnb', this)">☕ F&B (Konsumsi)</button>
+          <button class="filter-btn" onclick="setFilterCategory('percetakan', this)">🖨️ Percetakan</button>
+          <button class="filter-btn" onclick="setFilterCategory('konsinyasi', this)">🛍️ Konsinyasi</button>
+          <button class="filter-btn" onclick="setFilterCategory('kreatif', this)">🎨 Jasa Kreatif</button>
+        </div>
+      </div>
+
+      <!-- 4 Unit Cards Grid -->
+      <div class="catalog-grid" id="catalogGrid">
+
+        <!-- ================= CARD 1: F&B ================= -->
+        <article class="unit-card" data-category="fnb" id="card-fnb">
+          <div class="card-glow-border"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-category-tag tag-fnb">Food & Drinks</span>
+              <span class="card-price-tag">Mulai Rp 5.000</span>
+            </div>
+            
+            <div class="card-icon-wrapper icon-fnb">
+              <span>☕</span>
+            </div>
+
+            <h3 class="card-title">Unit F&B (Food & Drink)</h3>
+            <p class="card-desc">
+              Menyajikan berbagai pilihan kuliner harian, aneka camilan renyah, seduhan kopi aromatik, 
+              serta minuman segar pelepas dahaga. Melayani pesanan paket katering dan snack box resmi kepanitiaan seminar dan rapat kampus.
+            </p>
+
+            <div class="sub-services-box">
+              <div class="service-chip">Kopi & Minuman Dingin</div>
+              <div class="service-chip">Snack Box Rapat Himpunan</div>
+              <div class="service-chip">Katering Acara Kampus</div>
+              <div class="service-chip">Makanan Siap Santap</div>
+            </div>
+
+            <div class="unit-meta-list">
+              <div class="meta-item">
+                <span class="meta-icon">🕒</span>
+                <span class="meta-text">08.00 - 18.00 WIB (Senin - Jumat)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">📍</span>
+                <span class="meta-text">Kantin Gedung TI Lantai 1</span>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <button class="btn btn-card-primary" onclick="openOrderModal('fnb')">
+                Detail & Order Menu ↗
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= CARD 2: PERCETAKAN ================= -->
+        <article class="unit-card" data-category="percetakan" id="card-percetakan">
+          <div class="card-glow-border"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-category-tag tag-percetakan">Print & Dokumen</span>
+              <span class="card-price-tag">Print Rp 500/lbr</span>
+            </div>
+            
+            <div class="card-icon-wrapper icon-percetakan">
+              <span>🖨️</span>
+            </div>
+
+            <h3 class="card-title">Unit Percetakan & Dokumen</h3>
+            <p class="card-desc">
+              Pusat reproduksi dokumen akademik cepat & presisi. Melayani cetak laser hitam-putih/warna, 
+              fotokopi modul kuliah, jilid skripsi hard cover pita emas, laminating, hingga jasa perapian format makalah akademik.
+            </p>
+
+            <div class="sub-services-box">
+              <div class="service-chip">Print Kilat HVS A4/F4</div>
+              <div class="service-chip">Jilid Hardcover Skripsi Emas</div>
+              <div class="service-chip">Fotokopi Modul Kuliah</div>
+              <div class="service-chip">Formatting Dokumen Rapi</div>
+            </div>
+
+            <div class="unit-meta-list">
+              <div class="meta-item">
+                <span class="meta-icon">🕒</span>
+                <span class="meta-text">07.30 - 17.30 WIB (Senin - Sabtu)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">📍</span>
+                <span class="meta-text">Media Center HMP-TI Lt. 2</span>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <button class="btn btn-card-primary" onclick="openOrderModal('percetakan')">
+                Pesan Cetak Kilat ↗
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= CARD 3: KONSINYASI ================= -->
+        <article class="unit-card" data-category="konsinyasi" id="card-konsinyasi">
+          <div class="card-glow-border"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-category-tag tag-konsinyasi">Titip Jual</span>
+              <span class="card-price-tag">Bagi Hasil 90/10</span>
+            </div>
+            
+            <div class="card-icon-wrapper icon-konsinyasi">
+              <span>🛍️</span>
+            </div>
+
+            <h3 class="card-title">Unit Konsinyasi (Titip Jual)</h3>
+            <p class="card-desc">
+              Inkubasi wirausaha muda Teknologi Informasi. Wadah resmi penitipan produk UMKM mahasiswa, 
+              merchandise official TI, kaos custom, aksesoris, stiker laptop, hingga buku modul bekas perkuliahan dengan pembukuan transparan.
+            </p>
+
+            <div class="sub-services-box">
+              <div class="service-chip">Etalase Offline Kampus</div>
+              <div class="service-chip">Merchandise Official TI</div>
+              <div class="service-chip">Laporan Penjualan Transparan</div>
+              <div class="service-chip">Promosi Story Media Sosial</div>
+            </div>
+
+            <div class="unit-meta-list">
+              <div class="meta-item">
+                <span class="meta-icon">🕒</span>
+                <span class="meta-text">09.00 - 16.00 WIB (Hari Kerja)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">📍</span>
+                <span class="meta-text">Etalase Sekretariat HMP-TI</span>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <button class="btn btn-card-primary" onclick="openOrderModal('konsinyasi')">
+                Formulir Titip Jual ↗
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= CARD 4: JASA KREATIF ================= -->
+        <article class="unit-card" data-category="kreatif" id="card-kreatif">
+          <div class="card-glow-border"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-category-tag tag-kreatif">Creative Agency</span>
+              <span class="card-price-tag">Paket Mahasiswa/UMKM</span>
+            </div>
+            
+            <div class="card-icon-wrapper icon-kreatif">
+              <span>🎨</span>
+            </div>
+
+            <h3 class="card-title">Unit Jasa Kreatif (Media & Design)</h3>
+            <p class="card-desc">
+              Agensi kreatif resmi ITS: memproduksi karya visual berkualitas tinggi untuk kebutuhan acara, 
+              bisnis, maupun personal. Menangani desain poster event, branding kit, foto wisuda/kegiatan, video Reels sinematik, hingga landing page UI/UX.
+            </p>
+
+            <div class="sub-services-box">
+              <div class="service-chip">Desain Poster & Feed IG</div>
+              <div class="service-chip">Foto Wisuda & Dokumentasi</div>
+              <div class="service-chip">Video Reels & Sinematik</div>
+              <div class="service-chip">Landing Page & UI/UX Design</div>
+            </div>
+
+            <div class="unit-meta-list">
+              <div class="meta-item">
+                <span class="meta-icon">🕒</span>
+                <span class="meta-text">08.00 - 21.00 WIB (Studio/Online)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">📍</span>
+                <span class="meta-text">Studio Lab Multimedia TI Lt. 3</span>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <button class="btn btn-card-primary" onclick="openOrderModal('kreatif')">
+                Konsultasi Kreatif ↗
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      
+      <!-- Empty Search Notification -->
+      <div id="noResultsNotice" class="no-results hidden">
+        <div class="no-results-icon">🔎</div>
+        <h4>Layanan Tidak Ditemukan</h4>
+        <p>Coba gunakan kata kunci lain seperti "kopi", "print", "jilid", "poster", atau "desain".</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ================= PORTFOLIO SECTION (DATA SCRAPED DARI ITS) ================= -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading-badge">KARYA & REKAM JEJAK</span>
+        <h2 class="section-title">Studi Kasus & Portofolio Karya</h2>
+        <p class="section-subtitle">
+          Sebagian contoh karya nyata yang merepresentasikan kemampuan mahasiswa bertalenta di unit usaha HMP-TI.
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="portfolio-badge">Creative Design</div>
+          <h3 class="portfolio-title">Coffee Shop Branding Kit</h3>
+          <p class="portfolio-desc">
+            Identitas visual terpadu: perancangan logo premium, color palette, packaging cup kopi kekinian, serta template feed Instagram promosi.
+          </p>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-badge">Technology Development</div>
+          <h3 class="portfolio-title">Fintech Dashboard Web App</h3>
+          <p class="portfolio-desc">
+            Aplikasi web monitoring analitik keuangan dengan visualisasi data real-time, responsive multi-device, dan manajemen role-based access.
+          </p>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-badge">Mobile & Web</div>
+          <h3 class="portfolio-title">E-Commerce Mobile App</h3>
+          <p class="portfolio-desc">
+            Prototipe dan antarmuka aplikasi belanja Android & iOS lengkap dengan integrasi alur payment gateway dan notifikasi interaktif.
+          </p>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-badge">Business & Marketing</div>
+          <h3 class="portfolio-title">Restaurant Marketing Campaign</h3>
+          <p class="portfolio-desc">
+            Strategi content marketing, reels sinematik, dan social media management selama 3 bulan dengan pertumbuhan engagement mencapai +180%.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KEUNGGULAN / KENAPA KAMI ================= -->
+  <section id="fitur" class="features-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading-badge">KENAPA MEMILIH KAMI</span>
+        <h2 class="section-title">Keunggulan Layanan IT Solution HMP-TI</h2>
+        <p class="section-subtitle">
+          Satu atap terpadu dengan standar pengerjaan profesional dan dedikasi penuh mahasiswa.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">💰</div>
+          <h3 class="feature-title">Harga Ramah Kantong Mahasiswa</h3>
+          <p class="feature-desc">Tarif bersahabat yang dirancang khusus tanpa membebani keuangan harian mahasiswa dan pelaku UMKM lokal.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Lokasi Dekat & Respon Cepat</h3>
+          <p class="feature-desc">Berada langsung di dalam gedung kampus TI. Anda dapat berkonsultasi atau mengambil pesanan tanpa perlu repot keluar kampus.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">🎯</div>
+          <h3 class="feature-title">Kualitas Terjamin & Bergaransi</h3>
+          <p class="feature-desc">Didukung oleh mahasiswa bertalenta di bidangnya, menggunakan alat percetakan presisi dan lisensi software desain industri.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">🤝</div>
+          <h3 class="feature-title">Mendukung Kemandirian Himpunan</h3>
+          <p class="feature-desc">Setiap transaksi Anda turut berkontribusi dalam mendanai kegiatan sosial, riset, dan lomba mahasiswa Teknologi Informasi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ACCORDION (DATA RESMI DARI ITS) ================= -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading-badge">PERTANYAAN UMUM</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Hal-hal yang sering ditanyakan seputar mekanisme kerja sama dan pemesanan layanan.</p>
+      </div>
+
+      <div class="faq-list">
+        
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>Berapa lama estimasi pengerjaan pesanan atau proyek?</span>
+            <span class="faq-chevron">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Tergantung jenis layanan. Untuk print dan jilid dokumen dapat selesai kilat dalam hitungan jam. Untuk desain poster atau branding sederhana memakan waktu 1–2 hari kerja, sedangkan proyek sistem/web rata-rata 1–2 minggu. Estimasi pasti selalu disampaikan di awal pemesanan.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>Bagaimana sistem pembayaran yang tersedia?</span>
+            <span class="faq-chevron">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Kami menerima pembayaran tunai di sekretariat, transfer bank lokal, dan pembayaran instan via QRIS (GoPay, OVO, Dana, ShopeePay, Mobile Banking). Untuk proyek custom berlaku sistem 50% down payment di awal dan 50% saat serah terima hasil.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>Berapa kali revisi yang saya dapatkan untuk pesanan desain?</span>
+            <span class="faq-chevron">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Setiap pesanan paket desain mencakup kuota 2x revisi minor gratis untuk memastikan konsep visual, warna, dan tipografi benar-benar sesuai dengan ekspektasi Anda.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>Apakah Unit Percetakan & Kreatif bisa melayani pesanan kilat atau mendesak (urgent)?</span>
+            <span class="faq-chevron">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Bisa! Kami menyediakan antrean prioritas kilat untuk dokumen tugas kuliah atau materi acara darurat. Hubungi hotline WhatsApp resmi kami untuk konfirmasi slot kilat.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>Bagaimana cara menitipkan produk di Unit Konsinyasi?</span>
+            <span class="faq-chevron">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Anda cukup membawa sampel produk ke sekretariat HMP-TI atau menghubungi koordinator via WhatsApp. Kami akan mencatat inventaris barang, menentukan harga jual, serta menyepakati pembagian hasil 90/10 secara tertulis dan transparan.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer id="kontak" class="site-footer">
+    <div class="container footer-wrapper">
+      
+      <div class="footer-col brand-col">
+        <div class="brand-logo">
+          <img src="assets/logo-its.png" alt="Logo HMP-TI" class="brand-img">
+          <div class="brand-text">
+            <div class="brand-title">IT SOLUTION</div>
+            <div class="brand-subtitle">HMP-TI KAMPUS</div>
+          </div>
+        </div>
+        <p class="footer-about">
+          Unit Usaha Himpunan Mahasiswa Program Studi Teknologi Informasi. 
+          Wadah kolaborasi, inovasi wirausaha mandiri, dan pelayanan akademik terintegrasi civitas kampus.
+        </p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/its_hmpti" target="_blank" rel="noopener noreferrer" class="social-pill">Instagram @its_hmpti</a>
+          <a href="https://wa.me/6285175044971" target="_blank" rel="noopener noreferrer" class="social-pill">WhatsApp Hotline</a>
+        </div>
+      </div>
+
+      <div class="footer-col links-col">
+        <h4 class="footer-heading">Navigasi Halaman</h4>
+        <ul class="footer-nav">
+          <li><a href="#katalog">Katalog Unit Usaha</a></li>
+          <li><a href="#portfolio">Studi Kasus & Portfolio</a></li>
+          <li><a href="#fitur">Keunggulan Layanan</a></li>
+          <li><a href="#faq">Tanya Jawab (FAQ)</a></li>
+          <li><a href="javascript:void(0)" onclick="openCalculatorModal()">Kalkulator Biaya Cetak</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col info-col">
+        <h4 class="footer-heading">Sekretariat & Pelayanan Resmi</h4>
+        <p class="contact-line">📍 Alamat: Banjarmasin, Kalimantan Selatan</p>
+        <p class="contact-line">🏢 Lokasi: Gedung HMP-TI Kampus TI</p>
+        <p class="contact-line">🕒 Jam Operasional: Senin–Jumat, 09.00–18.00 WIB</p>
+        <p class="contact-line">✉️ Email Resmi: its.hmpti@gmail.com</p>
+        <p class="contact-line">💬 Hotline WhatsApp: +62 851-7504-4971</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-flex">
+        <p>&copy; 2026 IT Solution (ITS) HMP-TI. Semua hak dilindungi.</p>
+        <p class="creator-badge">Dibuat dengan ♦ oleh Mahasiswa Teknologi Informasi</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= POP-UP DETAIL & ORDER MODAL ================= -->
+  <div id="orderModalOverlay" class="modal-backdrop" onclick="closeOrderModalOnBackdrop(event)">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeOrderModal()" aria-label="Tutup Jendela">&times;</button>
+      
+      <div class="modal-head">
+        <div class="modal-icon-badge" id="modalUnitIcon">📦</div>
+        <div>
+          <span class="modal-tag" id="modalUnitCategory">DIVISI LAYANAN</span>
+          <h3 class="modal-title" id="modalUnitTitle">Nama Unit Usaha</h3>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-desc" id="modalUnitDesc"></p>
+
+        <!-- Dynamic Specs Grid -->
+        <div class="modal-specs-grid">
+          <div class="spec-card">
+            <span class="spec-label">🕒 Jam Operasional</span>
+            <span class="spec-value" id="modalUnitHours">-</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-label">📍 Lokasi Penyerahan</span>
+            <span class="spec-value" id="modalUnitLocation">-</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-label">👤 Koordinator Divisi</span>
+            <span class="spec-value" id="modalUnitPIC">-</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-label">💳 Sistem Pembayaran</span>
+            <span class="spec-value">QRIS / Tunai / Transfer Bank</span>
+          </div>
+        </div>
+
+        <!-- Custom Order Note Form -->
+        <div class="order-form-box">
+          <label for="orderNoteInput" class="form-label">Tulis Catatan / Kebutuhan Layanan Anda:</label>
+          <textarea id="orderNoteInput" rows="3" class="form-textarea" placeholder="Contoh: Mau pesan snack box untuk 20 orang atau jilid skripsi..."></textarea>
+        </div>
+
+        <div class="modal-actions">
+          <a id="modalWhatsAppLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-wa-full">
+            <span class="wa-icon">💬</span> Hubungi Langsung WhatsApp Resmi (+62 851-7504-4971)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL KALKULATOR ESTIMASI BIAYA ================= -->
+  <div id="calcModalOverlay" class="modal-backdrop" onclick="closeCalcModalOnBackdrop(event)">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeCalcModal()" aria-label="Tutup Jendela">&times;</button>
+      
+      <div class="modal-head">
+        <div class="modal-icon-badge">🧮</div>
+        <div>
+          <span class="modal-tag">SIMULATOR LAYANAN</span>
+          <h3 class="modal-title">Estimasi Biaya Cetak & Dokumen</h3>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-desc">Simulasikan perkiraan biaya cetak dokumen akademik Anda sebelum datang ke sekretariat.</p>
+
+        <div class="calc-form">
+          <div class="form-group">
+            <label for="calcDocType" class="form-label">Jenis Dokumen:</label>
+            <select id="calcDocType" class="form-select" onchange="calculateEstimate()">
+              <option value="500">Print Hitam Putih (A4 HVS) - Rp 500/lembar</option>
+              <option value="1500">Print Warna Standard - Rp 1.500/lembar</option>
+              <option value="2500">Print Full Warna Glossy - Rp 2.500/lembar</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="calcPages" class="form-label">Jumlah Lembar:</label>
+            <input type="number" id="calcPages" class="form-input" value="20" min="1" max="1000" oninput="calculateEstimate()">
+          </div>
+
+          <div class="form-group">
+            <label for="calcBinding" class="form-label">Opsi Penjilidan:</label>
+            <select id="calcBinding" class="form-select" onchange="calculateEstimate()">
+              <option value="0">Tanpa Jilid (Klip Saja) - Gratis</option>
+              <option value="3000">Jilid Lakban Mika Bening - Rp 3.000</option>
+              <option value="7000">Jilid Spiral Kawat - Rp 7.000</option>
+              <option value="25000">Jilid Hardcover Skripsi Emas - Rp 25.000</option>
+            </select>
+          </div>
+
+          <!-- Total Result Box -->
+          <div class="calc-result-box">
+            <span class="result-label">Total Estimasi Biaya:</span>
+            <span class="result-price" id="calcTotalResult">Rp 13.000</span>
+          </div>
+
+          <div class="modal-actions" style="margin-top: 15px;">
+            <button class="btn btn-card-primary" onclick="orderFromCalculator()">
+              💬 Pesan Cetak Hasil Estimasi Ini via WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Eksternal Wajib -->
+  <script src="script.js"></script>
+</body>
+</html>
